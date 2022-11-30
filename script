@@ -1,0 +1,17 @@
+<script>
+const phone = document.getElementById("phone");
+const email = document.getElementById("email");
+
+const yes = document.getElementById("yes");
+const no = document.getElementById("no");
+
+yes.addEventListener("click", () => {
+	phone.style.display = "block";
+  email.style.display = "none";
+});
+
+no.addEventListener("click", () => {
+	email.style.display = "block";
+  phone.style.display = "none";
+});
+</script>
